@@ -70,7 +70,7 @@ if __name__ == "__main__":
     n_dim = 5
     pop = 20
     
-    avoa = AVOA_Continuous(n_vultures=pop, n_dimensions=n_dim, max_iter=100000, lb=-10, ub=10)
+    avoa = AVOA_Continuous(n_vultures=pop, n_dimensions=n_dim, max_iter=100, lb=-10, ub=10)
     best_pos, best_val = avoa.optimize()
 
     print("\n--- Results ---")
